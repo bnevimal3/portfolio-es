@@ -1,0 +1,38 @@
+{
+  "name": "portafolio-de-nanda-eswar-vimal-boppudi",
+  "private": true,
+  "homepage": "https://bnevimal3.github.io/portfolio-es/",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.553.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.1.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.4.1"
+  },
+  "description": "Un sitio web de portafolio personal moderno y totalmente responsivo para Nanda Eswar Vimal Boppudi, un Desarrollador Full Stack de Java. Construido con React, TypeScript y estilizado con Tailwind CSS, presenta una interfaz de usuario elegante con tema oscuro y animaciones suaves y elegantes impulsadas por Framer Motion. El portafolio muestra eficazmente habilidades, experiencia profesional, proyectos e incluye un formulario de contacto funcional utilizando EmailJS.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
